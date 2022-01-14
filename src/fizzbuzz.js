@@ -12,6 +12,8 @@ function fizzBuzz (n) {
     	if (b ==0){
     		return 'Buzz';
     	}
+    else
+    	return "";
 }
 
 module.exports = fizzBuzz
