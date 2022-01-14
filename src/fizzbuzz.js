@@ -1,6 +1,17 @@
 function fizzBuzz (n) {
-    // TODO: Compléter fizzbuzz()
-    return "fizzbuzz"
+	a = n % 3;
+	b = n % 5;
+    if (a == 0 && b == 0) {
+    	return 'FizzBuzz';
+    }
+    else
+    	if (a == 0){
+    		return 'Fizz';
+    	}
+    else
+    	if (b ==0){
+    		return 'Buzz';
+    	}
 }
 
 module.exports = fizzBuzz
