@@ -3,7 +3,7 @@ function mergeSortedArrays(t1, t2){
     i = 0;
     j = 0;
     k = 0;
-    while (i < length(t1) && j < length(t2)){
+    while (i < t1.length && j < t2.length){
         if (t1[i] < t2[j]){
             result[k] = t1[i];
             i++;
@@ -15,13 +15,13 @@ function mergeSortedArrays(t1, t2){
         k++;
     }
 
-    while (i < length(t1)){
+    while (i < t1.length){
         result[k] = t1[i];
         i++;
         k++;
     }
 
-    while (j < length(t2)){
+    while (j < t2.length){
         result[k] = t2[j];
         j++;
         k++;
