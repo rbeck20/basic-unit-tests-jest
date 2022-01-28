@@ -1,3 +1,5 @@
+BECK Rémi
+
 # Basic unit testing with Jest
 
 ## Installer NodeJS
